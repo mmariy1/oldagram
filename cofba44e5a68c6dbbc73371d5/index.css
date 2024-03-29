@@ -1,0 +1,122 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #C6C6C6;
+}
+
+header {
+    display: flex;
+    height: 67px;
+    justify-content: space-between;
+    margin-bottom: -10px;
+    padding-top: 5px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+p {
+    font-size: 15px;
+}
+
+.logo, header {
+    background-color: #f6f6f6;
+}
+
+
+.user-avatar {
+    width: 34px;
+    height: 34px;
+    margin: 17px 16px 17px 0px;
+    border-radius: 100%;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    display: block;
+}
+
+.post-image {
+    width: 375px;
+    height: 375px;
+}
+
+.name, .username, .likes {
+    font-weight: 700
+}
+
+.post-description, .location {
+    font-weight: 400;
+}
+
+.post-wrapper {
+    display: flex;
+    margin: 0px 0 10px 0;
+    padding: 0 0 1px 7px;
+}
+
+.name-location {
+    display: block;
+    margin-left: 7px;
+}
+
+.name, .location {
+    margin: 0px;
+}
+
+.like-icon, .comment-icon, .dm-icon{
+    width: 24px;
+    margin-left: -6px;
+}
+
+.buttons {
+    display: flex;
+    max-width: 104px;
+    max-height: 24px;
+    justify-content: space-between;
+    margin: 21px 0px 11.87px 0px;
+    
+}
+
+button {
+    width: 24px;
+    background-color: #f6f6f6;
+    border: none;
+}
+
+button:focus, button:hover {
+    outline: none;
+    cursor: pointer;
+}
+
+button:active .like-icon,
+button:active .comment-icon, 
+button:active .dm-icon {
+    opacity: 50%;
+}
+
+.username {
+    display: inline;
+}
+
+.post-description {
+    display: inline;
+
+}
+
+
+.username {
+    margin-right: 3px;
+}
+
+.full-post {
+    padding: 10px 0;
+    margin: 10px 0;
+    background-color: #f6f6f6
+}
+
+.buttons, .likes, .username-description {
+    padding-left: 10px
+}
